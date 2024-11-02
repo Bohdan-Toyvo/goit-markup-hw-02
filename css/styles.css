@@ -18,11 +18,13 @@ a {
 
 /* #region Common */
 .features,
+.team,
 .portfolio {
   background-color: inherit;
 }
 .team-title,
 .portfolio-title {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -124,7 +126,7 @@ a {
 /*#endregion*/
 
 /* #region Features*/
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -136,21 +138,12 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 /*#endregion*/
 
 /* #region Team*/
-.team {
-  background-color: #f4f4fd;
-}
 
-.team-subtitle {
-  text-align: center;
-}
-.team-text {
-  text-align: center;
-}
 /*#endregion*/
 
 /* #region Portfolio*/
