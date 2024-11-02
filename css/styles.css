@@ -29,7 +29,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: #2e2f42;
 }
 .team-subtitle,
@@ -107,7 +107,6 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
 }
 .hero-button {
@@ -126,23 +125,17 @@ a {
 /*#endregion*/
 
 /* #region Features*/
-/*.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}*/
 
 /*#endregion*/
 
 /* #region Team*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-subtitle,
+.team-text {
+  background-color: #fff;
+}
 
 /*#endregion*/
 
